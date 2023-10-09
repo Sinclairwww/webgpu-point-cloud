@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webgpu Samples</title>
+    <style>
+        html,
+        body {
+            font-family: Avenir, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        iframe {
+            flex-grow: 1;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe></iframe>
+    <a class="src" target="_blank">&lt; &gt;</a>
+    <script>
+        const iframe = document.querySelector('iframe')
+        iframe.src = './samples/WebGPUdemo.html'
+    </script>
+</body>
+
+</html>
